@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Tilt+Prism&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/output.css" />
+    <title>Navbar Menu</title>
+  </head>
+  <style>
+    * {
+      /* border: solid 1px white; */
+    }
+  </style>
+  <body class="bg-[#131327] text-white">
+    <h1 class="mt-32 text-5xl font-semibold text-center font-Montserrat">
+      Game Swit Jawa
+    </h1>
+
+    <div class="flex flex-col items-center justify-center gap-2 mt-10">
+      <div
+        class="w-[560px] h-[250px] bg-sky-600 rounded-t-[40px] flex justify-center items-center"
+      >
+        <img
+          class="h-[130px] w-[130px] cursor-pointer"
+          src="../image/img/gajah.png"
+          alt="gajah"
+          id="computer-image"
+        />
+      </div>
+
+      <div
+        class="absolute w-[150px] h-[60px] border-[5px] rounded-[30px] text-center leading-[50px] text-xl bg-[#131327] border-[#131327] font-Montserrat font-semibold"
+        id="info"
+      ></div>
+
+      <div class="w-[560px] h-[250px] bg-yellow-600 rounded-b-[40px]">
+        <ul class="flex items-center justify-center mt-[55px] gap-10">
+          <li>
+            <img
+              class="h-[130px] w-[130px] cursor-pointer rounded-[50%] hover:button-hover duration-300 active:scale-90"
+              src="../image/img/gajah.png"
+              alt="gajah"
+              id="gajah"
+            />
+          </li>
+          <li>
+            <img
+              class="h-[130px] w-[130px] cursor-pointer rounded-[50%] hover:button-hover duration-300 active:scale-90"
+              src="../image/img/orang.png"
+              alt="orang"
+              id="orang"
+            />
+          </li>
+          <li>
+            <img
+              class="h-[130px] w-[130px] cursor-pointer rounded-[50%] hover:button-hover duration-300 active:scale-90"
+              src="../image/img/semut.png"
+              alt="semut"
+              id="semut"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
